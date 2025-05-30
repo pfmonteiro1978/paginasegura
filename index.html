@@ -9,7 +9,8 @@
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background: #ffffff;
+      background: url('https://securityfirst.com.br/wp-content/uploads/2024/04/Imagem-para-blog-linkdim-3-1920x960.png') no-repeat center center fixed;
+      background-size: cover;
       color: #333;
       padding: 2rem;
       display: flex;
@@ -17,47 +18,69 @@
       align-items: flex-start;
       min-height: 100vh;
     }
+
     .container {
       max-width: 800px;
       width: 100%;
-      background: #fff;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+      background: rgba(255, 255, 255, 0.92);
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
+
     h1 {
       font-size: 1.8rem;
       color: #d32f2f;
       margin-bottom: 1rem;
     }
+
     h2 {
       font-size: 1.3rem;
       color: #111;
       margin-top: 2rem;
     }
+
     p {
       font-size: 1rem;
       line-height: 1.6;
       margin: 1rem 0;
     }
+
     ul {
       padding-left: 1.2rem;
       margin-top: 1rem;
     }
+
     ul li {
       margin-bottom: 0.5rem;
     }
+
     .highlight {
       color: #d32f2f;
       font-weight: 600;
     }
+
     .footer {
       margin-top: 2rem;
       font-size: 0.9rem;
-      color: #666;
+      color: #555;
       border-top: 1px solid #ccc;
       padding-top: 1rem;
       text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
     }
   </style>
 </head>
@@ -90,3 +113,4 @@
   </div>
 </body>
 </html>
+
